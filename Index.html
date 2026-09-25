@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js</title>
+
+    <style>
+      .valid{
+        border: 2px solid red;
+      }
+      .invalid{
+        border: 2px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <label for="color">Choose a color:</label>
+    <select id="color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+    </select>
+<p id="selectedColor">Selected Color: None</p>
+
+
+<label for="username">username</label>
+<input type="text" value="username" id="username">
+<p id="curentName">Curent Name is:</p>
+    <script src="main.js"></script> -->
+
+    <!-- 
+    <form id="Myform">
+        <label for="name" id="name">name</label>
+        <input type="text" name="name" id="name">
+        <button type="submit">submit</button>
+    </form>
+    <p id="ForMessege"></p> -->
+
+    <!-- form validation -->
+    <form id="registrationForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><br /><br />
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword"
+      /><br /><br />
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="error" style="color: red;"></p>
+    <p id="success" style="color: green;"></p>
+
+    <script src="main.js"></script>
+  </body>
+</html>
